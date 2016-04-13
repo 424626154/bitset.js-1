@@ -1,0 +1,16 @@
+{
+  "name": "bitset",
+  "version": "1.0.0",
+  "description": "A bitset implementation.",
+  "main": "bitset.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/axelf4/bitset.git"
+  },
+  "keywords": [
+    "bitset",
+	"bitmap"
+  ],
+  "author": "Axel Forsman",
+  "license": "MIT"
+}
