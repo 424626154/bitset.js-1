@@ -1,7 +1,6 @@
 "use strict";
 
 var BitSet = function() {
-	// this.words = new Array(0).fill(0);
 	this.words = new Array(1);
 	for (var i = 0; i < 2; i++) this.words[i] = 0;
 };
@@ -56,7 +55,7 @@ BitSet.prototype.contains = function(set) {
  */
 BitSet.prototype.cardinality = function() {
 	var value = 0;
-	for (var i = 0, length = this.words.lenght; i < length; i++) {
+	for (var i = 0, length = this.words.length; i < length; i++) {
 		var j = this.words[i];
 		j = j - ((j >>> 1) & 0x55555555);
 		j = (j & 0x33333333) + ((j >>> 2) & 0x33333333);
